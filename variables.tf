@@ -14,5 +14,5 @@ variable "aws_credentials_profile" {
 variable "tag-task" {
     description = "A value that indicates under what task/test/tinker/project the resources was created and groups all associated resources accordingly"
     type = string
-    default = "HansRaptor - DevOps Hints Tutorial - Episode 14 - Demo"
+    default = "HansRaptor - DevOps Hints Tutorial - Episode 14 - Attempt 02"
 }
