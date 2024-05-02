@@ -14,4 +14,11 @@ terraform {
         }
     }
     required_version = ">= 0.14.0"
+    # backend "s3" {
+    #     bucket = "hansraptor-terraform-resources"
+    #     key = "hansraptor-episode04/main.tfstate"
+    #     region = "af-south-1"
+    #     encrypt = true
+    #     profile = "hansraptor_admin"
+    # }
 }
