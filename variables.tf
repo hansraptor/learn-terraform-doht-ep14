@@ -8,11 +8,11 @@ variable "aws_region" {
 variable "aws_credentials_profile" {
     description = "AWS profile used locally for authentication"
     type = string
-    default = "hansraptor_admin"
+    default = "iamterraform_admin"
 }
 
 variable "tag-task" {
     description = "A value that indicates under what task/test/tinker/project the resources was created and groups all associated resources accordingly"
     type = string
-    default = "HansRaptor - DevOps Hints Tutorial - Episode 14 - Attempt 02"
+    default = "HansRaptor - DevOps Hints Tutorial - Episode 14"
 }
